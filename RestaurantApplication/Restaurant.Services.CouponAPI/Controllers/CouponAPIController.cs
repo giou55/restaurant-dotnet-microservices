@@ -9,7 +9,8 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace Restaurant.Services.CouponAPI.Controllers
 {
-    [Route("api/[controller]")]
+    //[Route("api/[controller]")]
+    [Route("api/coupon")] // so the route never changes, even if we change the controller name
     [ApiController]
     public class CouponAPIController : ControllerBase
     {
