@@ -13,7 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{30
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restaurant.Services.CouponAPI", "Restaurant.Services.CouponAPI\Restaurant.Services.CouponAPI.csproj", "{CE91C3BE-B3D5-4231-B36C-2DBC1A34314A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurant.Web", "Restaurant.Web\Restaurant.Web.csproj", "{547B1C12-AECC-4761-B4E7-4F180721C5FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restaurant.Web", "Restaurant.Web\Restaurant.Web.csproj", "{547B1C12-AECC-4761-B4E7-4F180721C5FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurant.Services.AuthAPI", "Restaurant.Services.AuthAPI\Restaurant.Services.AuthAPI.csproj", "{3E260361-D005-4E9C-8009-E7E3E547A742}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{547B1C12-AECC-4761-B4E7-4F180721C5FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{547B1C12-AECC-4761-B4E7-4F180721C5FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{547B1C12-AECC-4761-B4E7-4F180721C5FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E260361-D005-4E9C-8009-E7E3E547A742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E260361-D005-4E9C-8009-E7E3E547A742}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E260361-D005-4E9C-8009-E7E3E547A742}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E260361-D005-4E9C-8009-E7E3E547A742}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{CE91C3BE-B3D5-4231-B36C-2DBC1A34314A} = {305D875A-B14B-4DE7-B451-AE927A42A5A1}
 		{547B1C12-AECC-4761-B4E7-4F180721C5FF} = {C6E48929-D19C-45C0-9BCF-F468C2CD6984}
+		{3E260361-D005-4E9C-8009-E7E3E547A742} = {305D875A-B14B-4DE7-B451-AE927A42A5A1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8809481D-B747-47CC-915C-9E1BE97E69C6}
