@@ -1,5 +1,4 @@
-﻿using System.Security.AccessControl;
-using static Restaurant.Web.Utility.SD;
+﻿using static Restaurant.Web.Utility.SD;
 
 namespace Restaurant.Web.Models
 {
