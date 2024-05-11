@@ -12,6 +12,7 @@ namespace Restaurant.Services.CouponAPI.Controllers
     //[Route("api/[controller]")]
     [Route("api/coupon")] // so the route never changes, even if we change the controller name
     [ApiController]
+    [Authorize]
     public class CouponAPIController : ControllerBase
     {
         private readonly AppDbContext _db;

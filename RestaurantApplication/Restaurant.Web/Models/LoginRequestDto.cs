@@ -9,3 +9,4 @@ namespace Restaurant.Web.Models
         [Required]
         public string Password { get; set; }
     }
+}
