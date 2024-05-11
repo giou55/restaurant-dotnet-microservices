@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restaurant.Services.CouponA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restaurant.Web", "Restaurant.Web\Restaurant.Web.csproj", "{547B1C12-AECC-4761-B4E7-4F180721C5FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurant.Services.AuthAPI", "Restaurant.Services.AuthAPI\Restaurant.Services.AuthAPI.csproj", "{3E260361-D005-4E9C-8009-E7E3E547A742}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restaurant.Services.AuthAPI", "Restaurant.Services.AuthAPI\Restaurant.Services.AuthAPI.csproj", "{3E260361-D005-4E9C-8009-E7E3E547A742}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurant.Services.ProductAPI", "Restaurant.Services.ProductAPI\Restaurant.Services.ProductAPI.csproj", "{0CDB2AC7-2EE9-45F4-8D40-C8F0B26740F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{3E260361-D005-4E9C-8009-E7E3E547A742}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E260361-D005-4E9C-8009-E7E3E547A742}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E260361-D005-4E9C-8009-E7E3E547A742}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CDB2AC7-2EE9-45F4-8D40-C8F0B26740F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CDB2AC7-2EE9-45F4-8D40-C8F0B26740F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CDB2AC7-2EE9-45F4-8D40-C8F0B26740F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CDB2AC7-2EE9-45F4-8D40-C8F0B26740F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +49,7 @@ Global
 		{CE91C3BE-B3D5-4231-B36C-2DBC1A34314A} = {305D875A-B14B-4DE7-B451-AE927A42A5A1}
 		{547B1C12-AECC-4761-B4E7-4F180721C5FF} = {C6E48929-D19C-45C0-9BCF-F468C2CD6984}
 		{3E260361-D005-4E9C-8009-E7E3E547A742} = {305D875A-B14B-4DE7-B451-AE927A42A5A1}
+		{0CDB2AC7-2EE9-45F4-8D40-C8F0B26740F8} = {305D875A-B14B-4DE7-B451-AE927A42A5A1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8809481D-B747-47CC-915C-9E1BE97E69C6}

@@ -53,6 +53,7 @@ builder.Services.AddSwaggerGen();
 //});
 
 builder.AddAppAuthetication(); // extension method
+
 builder.Services.AddAuthorization();
 
 var app = builder.Build();
