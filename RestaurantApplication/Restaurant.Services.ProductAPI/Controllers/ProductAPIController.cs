@@ -12,7 +12,7 @@ namespace Restaurant.Services.ProductAPI.Controllers
     //[Route("api/[controller]")]
     [Route("api/product")] // so the route never changes, even if we change the controller name
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class ProductAPIController : ControllerBase
     {
         private readonly AppDbContext _db;
